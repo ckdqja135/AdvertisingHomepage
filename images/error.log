@@ -1,0 +1,2 @@
+[Thu May 09 06:25:02.871384 2019] [mpm_event:notice] [pid 6547:tid 1996386544] AH00489: Apache/2.4.25 (Raspbian) configured -- resuming normal operations
+[Thu May 09 06:25:02.871518 2019] [core:notice] [pid 6547:tid 1996386544] AH00094: Command line: '/usr/sbin/apache2'
