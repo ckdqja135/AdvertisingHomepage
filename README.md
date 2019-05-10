@@ -1,15 +1,14 @@
-# FAQ Template
+# KaKao Ai Advertising
+made by chang beom Song
+질문사항은 페메 주세요.
+https://www.facebook.com/profile.php?id=100005411161313
 
-An easy to customize template for the FAQ section of your project, with the questions/answers grouped in categories to ease the navigation.
+# version 2.0
+index 화면 수정
+ - 기존의 index.html에 있던 내용들이 Sonata.html로 변경되었음.
+ - 메뉴들이 수정되었음.
+ - index화면에 Slider효과 추가
+Q&A, Partner페이지 생성(아직 수정 안되어있음.)
 
-[Article on CodyHouse](https://codyhouse.co/gem/css-faq-template)
-
-[Demo](https://codyhouse.co/demo/faq-template)
- 
-[License](https://codyhouse.co/license)
-
-## Dependencies
-
-This experiment is built upon the [CodyHouse Framework](https://github.com/CodyHouse/codyhouse-framework).
-
-Make sure to include both _globals.scss and util.js files of the framework.
+# version 1.0
+기본화면, 여러 기술 화면 페이지 생성
