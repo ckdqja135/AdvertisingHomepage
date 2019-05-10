@@ -4,8 +4,8 @@ made by chang beom Song
 https://www.facebook.com/profile.php?id=100005411161313
 
 # version 3.0
-GRANDURE.html파일이 들어가지지 않는 버그 수정.
-Q&A에서 클릭 시 Open & Close 되지 않는 문제 수정.
+ - GRANDURE.html파일이 들어가지지 않는 버그 수정.
+ - Q&A에서 클릭 시 Open & Close 되지 않는 문제 수정.
 
 # version 2.0
 index 화면 수정
