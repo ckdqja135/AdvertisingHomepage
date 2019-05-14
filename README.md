@@ -5,6 +5,8 @@ https://www.facebook.com/profile.php?id=100005411161313
 
 # version 4.0
  - Q&A 구현 완료.
+ - Partner Page 구현완료.
+ - inedx Page 일부 수정
 
 # version 3.0
  - GRANDURE.html파일이 들어가지지 않는 버그 수정.
