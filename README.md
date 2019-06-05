@@ -3,7 +3,8 @@ made by chang beom Song
 질문사항은 페메 주세요.
 https://www.facebook.com/profile.php?id=100005411161313
 # version 5.0
- - sidebar menu에 kakaotalk 공유 아이콘 생성 19-06-05
+ - sidebar menu에 kakaotalk 공유 아이콘 생성
+ - Date:   2019 - 06 - 05 PM 05 : 58
 # version 4.0
  - Q&A 구현 완료.
  - Partner Page 구현완료.
