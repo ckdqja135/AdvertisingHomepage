@@ -9,6 +9,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet"> <!--폰트 사용-->
 		<head>
 		<style type="text/css">
+		a:link
+		{
+			color: white; text-decoration: none;
+		}
 		/*Table Style */
 		.tg
 		{
@@ -162,6 +166,9 @@
 								<!-- Footer -->
 									<footer id="footer">
 										<p class="copyright">&copy; 웹 프레임 워크 2조 송창범, 진승오</a>.</p>
+										<a id="kakao-link-btn" href="javascript:sendLink()">
+										<img src="images/kakaolink_btn_medium.png"/>
+									</a>
 									</footer>
 							</div>
 						</div>
@@ -176,5 +183,45 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- kakao -->
+			<script type='text/javascript'>
+				//<![CDATA[
+					// // 사용할 앱의 JavaScript 키를 설정해 주세요.
+					Kakao.init('cf8f8ed6b58530a9c087f9011c5b22b4');
+					// // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+					function sendLink() {
+						Kakao.Link.sendDefault({
+						objectType: 'feed',
+						content: {
+							title: 'Web Framework',
+							description: '#kakao #ai #2조 #송창범 #진승오',
+							imageUrl: '',
+							link: {
+							mobileWebUrl: 'http://211.207.68.165/WebF/index.html',
+							webUrl: 'http://211.207.68.165/WebF/index.html'
+							}
+						},
+						social: {
+							likeCount: 22286,
+							commentCount: 14,
+							sharedCount: 105
+						},
+						buttons: [{
+							title: 'PC버전으로 보기',
+							link: {
+							mobileWebUrl: 'http://211.207.68.165/WebF/index.html',
+							webUrl: 'http://211.207.68.165/WebF/index.html'
+							}
+						}, {
+							title: 'Moblie버전으로 보기',
+							link: {
+							mobileWebUrl: 'http://211.207.68.165/WebF/index.html',
+							webUrl: 'http://211.207.68.165/WebF/index.html'
+							}
+						}]
+						});
+					}
+				//]]>
+			</script>
 	</body>
 </html>
